@@ -1,0 +1,446 @@
+/*navbar work*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+
+nav.navbar {
+    background-color: #ECECEC;
+}
+
+form.btn {
+    padding: 0px 49px;
+}
+
+button.login {
+    height: 45px;
+    width: 106px;
+    background-color: #007E85;
+    border-radius: 16px;
+    border: none;
+    color: #FFF;
+}
+
+li.nav-item {
+    padding: 0px 8px;
+}
+
+
+
+.signup {
+    background-color: transparent;
+    border: none;
+    color: #213863;
+}
+
+/* navbar css completed */
+
+/* hero section start */
+
+div#hero {
+    background-color: #ECECEC;
+    margin-top: 33px;
+}
+
+#center-body {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap-reverse;
+}
+
+span.health-care {
+    color: #007E85;
+}
+
+span.green-span {
+    color: #6EAB36;
+}
+
+.text {
+    font-size: 31px;
+    margin-top: 39px;
+}
+
+.para {
+    width: 456px;
+    /* border: 1px solid; */
+    font-size: 15px;
+}
+
+.input-1 {
+    font-size: 21px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.video-logo {
+    padding: 0px 14px 0px 56px;
+}
+
+span.Appointments {
+    background-color: #007E85;
+    border-radius: 7px;
+    font-size: 21px;
+    padding: 0 16px;
+
+}
+
+.find-doctor-section {
+    display: flex;
+    margin: auto;
+    width: 70%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.inside-input {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.circle-logo {
+    display: inline-block;
+    /* width: 33px; */
+    border: 1px solid;
+    border-radius: 14px;
+    height: 29px;
+}
+
+div#input-field {
+    width: 90%;
+    margin: auto;
+    height: auto;
+    padding: 38px 32px;
+    border-radius: 24px;
+    border: none;
+    background-color: #fff;
+}
+
+span.circle-span {
+    width: 53px;
+    display: inline-block;
+    border: 1px solid;
+    border-radius: 12px;
+}
+
+button.search {
+    width: 97px;
+    border-radius: 8px;
+    height: 40px;
+    background-color: #007E85;
+    color: #fff;
+    border: none;
+}
+
+.heading {
+    width: 90%;
+    margin: auto;
+}
+
+
+@media screen and (max-width: 1018px) {
+    div.inside-input {
+    display: flex;
+    /* justify-content: center; */
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: 12px;
+    }
+    div.available{
+        display: none;
+    }
+  
+  }
+  @media screen and (max-width:694px) {
+      div.input{
+      width: 100%;
+      }  
+      div.inside-input{
+        width: 100%;
+      }
+      div.heading{
+        width: 80%;
+        margin: auto;
+        
+        
+    }
+    }
+  
+    @media screen and(max-width:790px) {
+            
+    }
+
+
+div#our-results{
+    text-align: center;
+}
+
+.results {
+    display: flex;
+    gap: 33px;
+    justify-content: space-around;
+    line-height: 3;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width:406px) {
+    .results{
+        flex-direction: column;
+    }
+}
+
+span.number {
+    color: #007E85;
+}
+small{
+    color: #007E85;
+}
+div.center-text{
+    text-align: center;
+    color: #007E85;
+}
+span.servies {
+
+    font-size: 16px;
+    font-weight: 700;
+}
+
+
+
+.operation-div-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.left-side {
+    padding-top: 75px;
+}
+.left-text{
+    color: #007E85;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.btns {
+    border-radius: 20px;
+    margin: 9px;
+}
+
+button.btns{
+    width: 130px;
+    padding: 9px;
+    border: none;
+    background-color: #007E85;
+    color: #fff;
+}
+button.btns>span{
+    color: #007E85;
+    background-color: #fff;
+}
+
+span.btn-span button{
+background-color: #fff;
+}
+
+
+@media screen and (max-width:878px) {
+    div.right-side-img>img
+    {
+        /* width: 300px; */
+        margin-top: 40px;
+        
+    }
+}
+@media screen and (max-width:500px) {
+    div.right-side-img>img{
+        width: 200px;
+    }
+}
+
+@media screen and (max-width:367px) {
+   
+    .card {
+        width: 200px;
+        margin: auto;
+        justify-content: center!important;
+    }
+    .justify-content-center {
+        justify-content: center!important;
+        width: 218px;
+        margin: auto;
+    }
+}
+
+div#card-section {
+    margin-top: 117px;
+}
+.justify-content-center {
+    justify-content: center!important;
+    flex-wrap: wrap;
+}
+.card {
+    margin: 8px;
+}
+/* Card section end here */
+
+/* feedback setion start here */
+
+/* div#feedback-section {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+} */
+
+div.center-texts-headings{
+    text-align: center;
+    padding: 54px;
+}
+
+
+div.center-texts-headings>h2 {
+    color: #007E85;
+    font-size: 37px;
+    font-weight: 700;
+}
+
+div.center-texts-headings-faq {
+    color: #000000 !important;
+    text-align: center;
+    margin-bottom: 56px;
+    margin-top: 115px;
+}
+
+div.center-texts-headings-faq p{
+    color: black;
+}
+
+span.gereaterthensign{
+    color: blue;
+}
+
+.input 
+    {
+       
+        border-radius: 13px;
+        border: none;
+        padding: 15px 20px;
+    }
+
+
+button.btn {
+    width: 129px;
+    padding: 15px 20px;
+    color: #fff;
+    background-color: #007791;
+    border-radius: 25px;
+    margin-left: 29px;
+}
+
+
+
+
+    /* Reset default margin and padding */
+  
+      
+      body {
+        font-family: Arial, sans-serif;
+      }
+      
+      footer {
+        background-color: #007791;
+        color: #fff;
+        padding: 20px 0;
+      }
+      
+      .footer-row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+      }
+      
+      .footer-col {
+    
+        flex: 1;
+        margin: 0 10px;
+        text-align: center;
+      }
+      
+      .footer-col h3 {
+        margin-bottom: 10px;
+      }
+      
+      /* Media query for responsiveness */
+      @media (max-width: 892px) {
+        .footer-col {
+          flex: 0 0 100%;
+          margin: 10px 0;
+          justify-content: center;
+          text-align: center;
+          width: 100%;
+        }
+      }
+      li{
+        text-decoration: none;
+        list-style: none;
+      }
+
+
+      @media screen and (max-width:694px) {
+          .heading {
+              text-align: center;
+           }
+           
+      }
+      @media screen and (max-width:381px) {
+        .container-fluid {
+           display: block;
+        }
+        .input-1{
+            display: none;
+        }
+        .results{
+            gap: 50px;
+        }
+        button.btn{
+            margin-top: 10px;
+        }
+       
+ }
+
+
+
+ @media screen and (max-width:300px){
+    div#operation-pic-div{
+        width: 250px;
+    }
+   
+ }
+ @media screen and (max-width:790px) {
+    .text {
+        font-size: 17px;
+    }
+ }
+
+ @media screen and (max-width:790px) {
+    .para{
+        width: 100%;
+        
+    }
+    .text{
+        text-align: center;
+    }
+ }
+ @media screen and (max-width:676px) {
+    div#card-section {
+        margin-top: 10px;
+    }
+ }
